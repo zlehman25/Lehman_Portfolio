@@ -5,3 +5,8 @@ I am a professional in the field of Data Analysis with 3 years of experience vis
 
   This Respository:
 Included in this repository are projects and code intended to demonstrate my Python proficiency and programming interests. Without the opportunity to demonstrate my Python skills professionally, I spend part of my personal time learning and improving my programming skills on my own.
+
+		- PokeAPI:
+	
+		- Water Pollution/Air Quality:
+	
