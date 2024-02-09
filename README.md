@@ -6,4 +6,4 @@ I am a professional in the field of Data Analysis with 3+ years of experience vi
 
   ## This Respository:
   
-Included in this repository are projects and code intended to demonstrate my Python proficiency and programming interests. Without the opportunity to demonstrate my Python skills professionally, I spend part of my personal time learning and improving my programming skills on my own. Branches include projects and python code where I have used various libraries to visualize and understand data sets and explore the automation of things that interest me like stock analysis, movie ratings, and sports scores. 
+Included in this repository are projects and code intended to demonstrate my Python proficiency and programming interests. Without the opportunity to demonstrate my Python skills professionally, I spend part of my personal time learning and improving my programming skills on my own. Branches include projects and python code where I have used various libraries to visualize and understand data sets and explore the automation of things that interest me.
