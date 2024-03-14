@@ -16,7 +16,7 @@ def diet_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['diet'])))
     plt.pie(habit_data.groupby('diet')['diet'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
@@ -65,7 +65,7 @@ def spend_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['spending'])))
     plt.pie(habit_data.groupby('spending')['spending'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
@@ -114,7 +114,7 @@ def yoga_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['yoga'])))
     plt.pie(habit_data.groupby('yoga')['yoga'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
@@ -163,7 +163,7 @@ def gym_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['gym'])))
     plt.pie(habit_data.groupby('gym')['gym'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
@@ -212,7 +212,7 @@ def learn_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['learning'])))
     plt.pie(habit_data.groupby('learning')['learning'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
@@ -261,7 +261,7 @@ def read_charter():
     habit_data['day_of_week'] = habit_data['date'].dt.day_name()
     habit_data['month'] = habit_data['date'].dt.month_name()
 
-    #Creating a pie chart - group is not working correctly
+    #Creating a pie chart - 
     labels = sorted((set(habit_data['reading'])))
     plt.pie(habit_data.groupby('reading')['reading'].count(), autopct='%1.1f%%')
     plt.figure(1, figsize=(6,6))
