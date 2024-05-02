@@ -10,7 +10,7 @@ This project explores Python as a tool to create databases and tables within Pos
 ### Features:
 - Ingests data from csv files using the pandas library
 - Cleans the data to prepare for insertation into the PostgreSQL database
-- Creates a connection to PostgrSQL through the local host, creates a database, creates tables, and inserts the data from th csv files into the created tables
+- Creates a connection to PostgrSQL through the local host, creates a database, creates tables, and inserts the data from the csv files into the created tables
 
 ### Learnings:
 - Using the psycopg2 library
